@@ -46,7 +46,7 @@ npm i @cycosoft/npm-select --save-dev
   "test:ui": "echo 'test:ui'",
   "test:ci": "echo 'test:ci'",
   "--------- DEMO: EXCLUDE ---------": "",
-  "exclude": "npm-select --exclude \"::.*|--.*|\/\/.*|^menu$|^start$|^tests$|^dev$\"",
+  "exclude": "npm-select --exclude \"::.*|--.*|\\.*|^menu$|^start$|^tests$|^dev$\"",
   "--------- EXCLUDE EXAMPLES ---------": "",
   "//comment.slash": "echo 'example // comment'",
   "::comment.colon": "echo 'example :: comment'",

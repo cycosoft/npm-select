@@ -8,7 +8,7 @@
   "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "npm-select": "./index.js"
+    "npm-select": "index.js"
   },
   "scripts": {
     "--------- DEMO: DEFAULT ---------": "",
@@ -27,7 +27,7 @@
     "test:ui": "echo 'test:ui'",
     "test:ci": "echo 'test:ci'",
     "--------- DEMO: EXCLUDE ---------": "",
-    "exclude": "node index.js --exclude \"::.*|--.*|\/\/.*|^menu$|^start$|^tests$|^dev$\"",
+    "exclude": "node index.js --exclude \"::.*|--.*|//.*|^menu$|^start$|^tests$|^dev$\"",
     "--------- EXCLUDE EXAMPLES ---------": "",
     "//comment.slash": "echo 'example // comment'",
     "::comment.colon": "echo 'example :: comment'",
