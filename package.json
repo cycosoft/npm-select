@@ -31,7 +31,13 @@
     "--------- EXCLUDE EXAMPLES ---------": "",
     "//comment.slash": "echo 'example // comment'",
     "::comment.colon": "echo 'example :: comment'",
-    "--comment.dash": "echo 'example -- comment'"
+    "--comment.dash": "echo 'example -- comment'",
+    "--------- DEPLOYMENT ---------": "",
+    "bundle": "npm pack",
+    "deploy": "npm run ENSURE_VERSION_SET && npm publish",
+    "bump:patch": "npm version patch && git push && git push --tags",
+    "bump:minor": "npm version minor && git push && git push --tags",
+    "bump:beta": "npm version prerelease --preid beta && git push && git push --tags"
   },
   "dependencies": {
     "prompts": "^2.4.2"
