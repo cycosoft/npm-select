@@ -56,23 +56,23 @@ npm i @cycosoft/npm-select --save-dev
 
 ### `npm start`
 
-<img src="./readme/npm_start.gif" alt="npm start" width="370" />
+<img src="https://raw.githubusercontent.com/cycosoft/npm-select/refs/heads/main/readme/npm_start.gif" alt="npm start" width="370" />
 
 ### `npm run dev`
 
-<img src="./readme/npm_run_dev.jpg" alt="npm run dev" width="370" />
+<img src="https://raw.githubusercontent.com/cycosoft/npm-select/refs/heads/main/readme/npm_run_dev.jpg" alt="npm run dev" width="370" />
 
 ### `npm run tests`
 
-<img src="./readme/npm_run_tests.jpg" alt="npm run tests" width="370" />
+<img src="https://raw.githubusercontent.com/cycosoft/npm-select/refs/heads/main/readme/npm_run_tests.jpg" alt="npm run tests" width="370" />
 
 ### `npm run menu`
 
-<img src="./readme/npm_run_menu.jpg" alt="npm run menu" width="370" />
+<img src="https://raw.githubusercontent.com/cycosoft/npm-select/refs/heads/main/readme/npm_run_menu.jpg" alt="npm run menu" width="370" />
 
 ### `npm run exclude`
 
-<img src="./readme/npm_run_exclude.jpg" alt="npm run exclude" width="370" />
+<img src="https://raw.githubusercontent.com/cycosoft/npm-select/refs/heads/main/readme/npm_run_exclude.jpg" alt="npm run exclude" width="370" />
 
 #### Author
 
