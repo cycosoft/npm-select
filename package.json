@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "Display package.json scripts as a list of keyboard selectable line items",
   "license": "MIT",
-  "author": "Cycosoft, LLC",
-  "homepage": "https://cycosoft.com",
+  "author": "Cycosoft, LLC (https://cycosoft.com)",
+  "homepage": "https://github.com/cycosoft/npm-select/releases",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "commonjs",
   "main": "index.js",
   "bin": {
     "npm-select": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cycosoft/npm-select.git"
   },
   "scripts": {
     "--------- DEMO: DEFAULT ---------": "",
