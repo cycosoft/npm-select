@@ -1,0 +1,39 @@
+{
+  "name": "@cycosoft/npm-select",
+  "version": "1.0.0",
+  "description": "Display package.json scripts as a list of keyboard selectable line items",
+  "license": "MIT",
+  "author": "Cycosoft, LLC",
+  "homepage": "https://cycosoft.com",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "npm-select": "./index.js"
+  },
+  "scripts": {
+    "--------- DEMO: DEFAULT ---------": "",
+    "start": "node index.js",
+    "--------- DEMO: MENU GROUP ---------": "",
+    "menu": "node index.js --filter \"^dev$|^tests$\"",
+    "--------- DEMO: SPECIFICITY ---------": "",
+    "dev": "node index.js --filter \"^dev:lite$|^dev:full$|^dev:fix$|^test:dev$\"",
+    "dev:lite": "echo 'dev:lite'",
+    "dev:full": "echo 'dev:full'",
+    "dev:fix": "echo 'dev:fix'",
+    "--------- DEMO: GROUP ---------": "",
+    "tests": "node index.js --filter ^test:",
+    "test:dev": "echo 'test:dev'",
+    "test:eyas": "echo 'test:eyas'",
+    "test:ui": "echo 'test:ui'",
+    "test:ci": "echo 'test:ci'",
+    "--------- DEMO: EXCLUDE ---------": "",
+    "exclude": "node index.js --exclude \"::.*|--.*|\/\/.*|^menu$|^start$|^tests$|^dev$\"",
+    "--------- EXCLUDE EXAMPLES ---------": "",
+    "//comment.slash": "echo 'example // comment'",
+    "::comment.colon": "echo 'example :: comment'",
+    "--comment.dash": "echo 'example -- comment'"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
